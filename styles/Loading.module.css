@@ -1,0 +1,20 @@
+.loading{
+    width: 20px;
+    height: 20px;
+    background-color: #3CBC28;
+    position: relative;
+    margin: 200px auto;
+    top: 0;
+    animation-name: bounce; 
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    animation-delay: 1s;
+}
+
+ @keyframes bounce{
+ 0%{left: 0; top: 0; transform: rotate(-50deg);}
+ 33%{left: 50px; top: 0; transform: rotate(50deg);}
+ 66%{left: -50px; top: 0; transform: rotate(-50deg);}
+ 100%{left: 0; top: 0; transform: rotate(-50deg);}
+ }
